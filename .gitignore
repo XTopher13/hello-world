@@ -6,3 +6,5 @@
 /HelloWorldApp/bin/
 /HelloWorldApp/obj
 /.vs/
+/HelloWorldApp/HelloWorldApp/bin/
+/HelloWorldApp/HelloWorldApp/obj
