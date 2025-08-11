@@ -23,7 +23,7 @@ namespace HelloWorldApp
 
         public static string GetTimeOfDay(DateTime now)
         {
-            Console.WriteLine($"{now}");
+            Console.WriteLine($"{now}"); //Convert to Logging
             DateTime noon = new(now.Year, now.Month, now.Day, 12,00,00);
             DateTime evening = new(now.Year, now.Month, now.Day, 17,00,00);
 
