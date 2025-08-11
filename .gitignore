@@ -3,3 +3,6 @@
 ################################################################################
 
 /HelloWorldApp/.vs/HelloWorldApp
+/HelloWorldApp/bin/
+/HelloWorldApp/obj
+/.vs/
