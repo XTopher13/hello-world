@@ -2,9 +2,9 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/HelloWorldApp/.vs/HelloWorldApp
+/.vs/
 /HelloWorldApp/bin/
 /HelloWorldApp/obj
-/.vs/
 /HelloWorldApp/HelloWorldApp/bin/
 /HelloWorldApp/HelloWorldApp/obj
+/HelloWorldApp/.vs/
