@@ -28,8 +28,8 @@ namespace HelloWorldApp
             DateTime evening = new(now.Year, now.Month, now.Day, 17,00,00);
 
             if (now < noon) return "Morning";
-            if (now < evening) return "Afternoon";
-            return "Evening";
+            else if (now < evening) return "Afternoon";
+            else return "Evening";
         }
     }
 }
