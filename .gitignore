@@ -8,3 +8,6 @@
 /HelloWorldApp/HelloWorldApp/bin/
 /HelloWorldApp/HelloWorldApp/obj
 /HelloWorldApp/.vs/
+/HelloWorldApp/HelloWorldTests/obj
+/HelloWorldApp/HelloWorldTests/bin/Debug/net8.0
+/HelloWorldApp/HelloWorldTests/bin/Release/net8.0
