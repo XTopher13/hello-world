@@ -9,9 +9,9 @@ namespace HelloWorldApp
             //TODO: Convert to Unit Tests:
             /*
             DateTime now = DateTime.Now;
-            DateTime morningTest = new DateTime(now.Year, now.Month, now.Day, 8,00,00);
-            DateTime afternoonTest = new DateTime(now.Year, now.Month, now.Day, 14,00,00);
-            DateTime eveningTest = new DateTime(now.Year, now.Month, now.Day, 20,00,00);
+            DateTime morningTest = new(now.Year, now.Month, now.Day, 8,00,00);
+            DateTime afternoonTest = new(now.Year, now.Month, now.Day, 14,00,00);
+            DateTime eveningTest = new(now.Year, now.Month, now.Day, 20,00,00);
             */
             Console.WriteLine($"Good {GetTimeOfDay()}, Christopher!");
         }
@@ -24,8 +24,8 @@ namespace HelloWorldApp
         public static string GetTimeOfDay(DateTime now)
         {
             Console.WriteLine($"{now}");
-            DateTime noon = new DateTime(now.Year, now.Month, now.Day, 12, 00, 00);
-            DateTime evening = new DateTime(now.Year, now.Month, now.Day, 17, 00, 00);
+            DateTime noon = new(now.Year, now.Month, now.Day, 12,00,00);
+            DateTime evening = new(now.Year, now.Month, now.Day, 17,00,00);
 
             if (now < noon) return "Morning";
             if (now < evening) return "Afternoon";
