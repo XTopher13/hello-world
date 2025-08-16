@@ -1,5 +1,6 @@
 # Games
 **Weeding Game** - A game for removing weeds experimenting with different strategies.
+
 **SolarPunk Stardew** - A stardew valley clone with more paths than farming where players can specialize or branch-out on different jobs
 - Researcher
 - Artist
@@ -54,5 +55,6 @@ Examples:
 # Fun
 **Sleeper** - Rank fantasy football teams using the Sleeper API and optimize for silly variables.
 - Give me the best team for Best-Ball where all the player's names start with "C"
+
 **Trade-Calculator** - Given a current state and desired future state, provide a flow diagram of "fair" trades to move through the states.
 - Ideally we can provide the model with feedback to develop a "personality" for each member that the trades are conducted with to improve the models accuracy.
