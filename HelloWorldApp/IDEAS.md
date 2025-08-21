@@ -9,6 +9,21 @@
 - Tree Reclamation
 - Builder
 
+**Sustainable Incremental** - Incremental games exist to watch the number go up. What if the goal was instead to find a sustainable solution. What if number go up is the wrong optimization?
+- Start with coal which produces energy when burned - that's our "clicker". Each time energy is captured, we watch number go up.
+- Coal is finite, so number stops going up and the player gets a "game over" with the time survived.
+- They can get really good at clicking, but that actually means they survive less time.
+- They can unlock other energy sources, ability to capture energy so it can be clicked on before "floating off the screen", more clickers to use the enrgy, etc.
+- Perhaps a loop is optimized so much that fision becomes possible and they unlock the achievement "infinite energy". (for now an acceptable "game over")
+	- Then the starter screen has a new option to "start with infinite energy"
+	- This game mode optimizes for yet another variable
+
+**Game Scraps** - These are ideas that can be compiled to make an actual tangible idea
+- A "citybuilder" where teh player can jump into the lives of different roles: planner (default), researcher (for those menus), miner (where they would literally go dig fior coal)
+	- Perhaps the more a player interacts with a particular role, the more efficient that role becomes; but it should be super boring so the player is incentivized as the "planner" to make that role's life better.
+	- Each role would be a different mini-game
+- City builder with square meeples in black & white art style; they could get little hats like Kirby when they specialize
+
 # Work
 **Dependency Task Estimator** - A utilitiy that estimates the time and resources required to fulfill several dependencies that roll up to the overall task.
 - Provides stacked bar chart to show where much of the time is spent.
@@ -50,6 +65,9 @@ Examples:
 **Minimum Prompt** - Validate that having fewer prompts is actually fewer resources, then learn how to reduce prompts to still get accurate results.
 
 **AI Heuristic** - Based on different factors (quality, energy usage, benefit, ethics), is __this use-case__ a good time to use AI?
+
+## Benchmarks
+Leveraging BenchmarkDotNet, create a bunch of benchmarks for different use-cases: copying files, managing latency, etc.
 
 
 # Fun
